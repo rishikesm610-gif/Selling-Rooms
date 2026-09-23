@@ -14,7 +14,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://buy-ans-selling-the-rooms.onrender.com",
+    origin:"https://selling-rooms-frontend.onrender.com",
     credentials:true
 }))
 
